@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Task;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+
 
 class TaskController extends Controller
 {
@@ -12,7 +14,10 @@ class TaskController extends Controller
      */
     public function index()
     {
-        $tasks = Task::latest()->get();
+        // $tasks = Task::latest()->get();
+        // $tasks = DB::table('tasks')->paginate(15);
+        $tasks = Task::paginate(25);
+
         return view('tasks.index', [
             'tasks' => $tasks
         ]);
