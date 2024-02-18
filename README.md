@@ -19,7 +19,7 @@ Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo mon
 - Bootstrap
 - Blade
 - Sail (herramienta para facilitar despliegues en docker)
-- Migraciones, validaciones, Eloquent, Faker, Factorías, Seeders, rutas, Tinker
+- Migraciones, validaciones, Eloquent, Faker, Factorías, Seeders, rutas, paginaciones, Tinker
 
 ### ¿Cómo despliego la aplicación?
 
@@ -81,8 +81,6 @@ Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo mon
 
 ### ToDo
 
-* Filtros
-* Ordenamientos
 * Paginación
 * Logout
 * Notificaciones
