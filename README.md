@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Registro de Pacientes
+## ToDO
 
 Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo monolito haciendo uso de Laravel 10 y Blade
 
@@ -81,7 +81,6 @@ Un simple CRUD en Laravel 10 para comprender sus fundamentos con un sencillo mon
 
 ### ToDo
 
-* Tests Unitarios
 * Filtros
 * Ordenamientos
 * Paginación
